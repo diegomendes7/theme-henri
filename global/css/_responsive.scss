@@ -1,0 +1,42 @@
+/*****************Ini: Media Queries******************/
+
+@media screen and (min-width:768px) {
+
+  .smart {
+    display: none !important;
+  }
+
+  .tablet {
+    display: block !important;
+    margin-top: 30px;
+  }
+
+  .social-pre-footer {
+    text-align: center;
+  }
+
+  .copy {
+    text-align: left;
+    margin-top: 25px;
+  }
+
+  .logo-footer {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    float: right;
+  }
+}
+
+
+@media screen  and (min-width:992px) {
+  .tablet {
+    display: none !important;
+  }
+
+  .desktop {
+    display: block !important;
+    margin-top: 30px;
+  }
+}
+
+/*****************End: Media Queries******************/
